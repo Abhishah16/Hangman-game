@@ -2,7 +2,7 @@
 Playability
 I ran your game to test it out first, and noticed something odd when a letter is found twice in the same word, such as "glass" here:
 
-Pick a letter
+Pick letter
  A
 You guessed correctly!
 ['-', '-', 'a', '-', '-']
