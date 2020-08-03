@@ -28,7 +28,7 @@ Printing a raw array like ['-', '-', 'a', 's', 's'] is a bit confusing, at first
 print("Word to guess: {0}".format(" ".join(guess_word)))
 Pick a letter
  o
-You guessed correctly!
+You guessed correctly!!
 Word to guess: - o -
 Much better! But it will get a bit clunky to type all that each time, so let's make a utility function for it and we can use it for the print(guess_word) at the beginning of a game too.
 
@@ -81,6 +81,6 @@ letter_storage = []
 Docstring
 It's a good habit to add a docstring to all functions, classes, and modules, to describe for other programmers what the code in question is for. I've done that for the above 2 utility function.
 
-Type hints
+Type hints : 
 Since Python 3, you can now use type hints for your function and method signatures, and use static code analysis tools. This also makes the code easier to read for humans.
 
